@@ -6,7 +6,7 @@ on:
       - main
 
 env:
-  DOCKER_IMAGE: muralisocial123/aws-retail-app
+  DOCKER_IMAGE: ummehaani1/aws-retail-app
   DOCKER_TAG: v1.4.0
 
 jobs:
@@ -23,8 +23,8 @@ jobs:
       - name: Log in to Docker Hub
         uses: docker/login-action@v3
         with:
-          username: kumanand
-          password: KumarK@890
+          username: ummehaani1
+          password: Doc//11223
 
       - name: Build and push Docker image
         uses: docker/build-push-action@v5
